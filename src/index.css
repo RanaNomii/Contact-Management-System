@@ -1,0 +1,201 @@
+
+.Modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: 'Style Script', cursive;
+
+}
+/* Style for the Success Modal */
+
+.red{
+  color: red;
+}
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+}
+p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #45a049;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+input {
+  width: 70%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Add focus styles for better user experience */
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Add styles for disabled input */
+input:disabled {
+  background-color: #f2f2f2;
+  color: #777;
+  cursor: not-allowed;
+}
+
+
+/* CSS for centering placeholder text */
+input::placeholder {
+  text-align: center; /* Center the text horizontally */
+  line-height: inherit; /* Center the text vertically */
+  color:rgb(28, 142, 28);
+}
+
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 7px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Style Script', cursive;
+
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+  border-radius: 20px;
+  background-color: #555;
+}
+
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* CSS animation for placeholder text */
+input::placeholder {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+font-family: 'Style Script', cursive;
+/* font-family: 'Ubuntu', sans-serif; */
+}
+
+h1 {
+  margin-bottom: 20px;
+  
+    background-color: #4caf50; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove default margin */
+    border-radius: 10px;
+  
+}
+.backend-message {
+  background-color: #d4edda; /* Background color */
+  color: #155724; /* Text color */
+  border: 1px solid #c3e6cb; /* Border color */
+  padding: 15px; /* Padding around the text */
+  margin: 20px 0; /* Margin space */
+  border-radius: 4px; /* Rounded corners */
+  font-family: 'Style Script', cursive;
+
+  
+}
+
+/* Styles for a success message */
+.backend-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  font-family: 'Style Script', cursive;
+
+}
+
+/* Styles for an error message */
+.backend-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  font-family: 'Style Script', cursive;
+
+}
+
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 16px;
+  }
+  button{
+    font-size: 14px;
+    padding: 4px 6px;
+
+  }
+}
